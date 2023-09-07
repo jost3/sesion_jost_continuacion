@@ -63,6 +63,16 @@ namespace login_corrido.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap c_inic {
+            get {
+                object obj = ResourceManager.GetObject("c#inic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap seeeeee {
             get {
                 object obj = ResourceManager.GetObject("seeeeee", resourceCulture);

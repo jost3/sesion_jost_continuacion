@@ -117,4 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>C# es un lenguaje de programación
+ de propósito
+ general que ofrece varias
+ características y 
+funcionalidades útiles.
+Fuertemente tipado.
+un lenguaje orientado a
+ objetos, lo que permite la 
+definición de 
+clases, objetos, herencia,
+ polimorfismo y encapsulación.
+Administración automática de 
+memoria: 
+Integración con .NET Framework y
+ .NET Core:
+ C# se ejecuta en el entorno
+ de tiempo de ejecución
+</value>
+  </data>
 </root>
