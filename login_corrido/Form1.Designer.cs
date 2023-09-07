@@ -64,6 +64,7 @@
             this.cerrar1.TabIndex = 1;
             this.cerrar1.Text = "X";
             this.cerrar1.UseVisualStyleBackColor = false;
+            this.cerrar1.Click += new System.EventHandler(this.cerrar1_Click);
             // 
             // pictureBox1
             // 
@@ -82,6 +83,9 @@
             this.nomb.Name = "nomb";
             this.nomb.Size = new System.Drawing.Size(182, 37);
             this.nomb.TabIndex = 2;
+            this.nomb.TextChanged += new System.EventHandler(this.nomb_TextChanged);
+            this.nomb.Enter += new System.EventHandler(this.nomb_Enter);
+            this.nomb.Leave += new System.EventHandler(this.nomb_Leave);
             // 
             // contra
             // 
@@ -90,6 +94,8 @@
             this.contra.Name = "contra";
             this.contra.Size = new System.Drawing.Size(182, 38);
             this.contra.TabIndex = 3;
+            this.contra.Enter += new System.EventHandler(this.contra_Enter);
+            this.contra.Leave += new System.EventHandler(this.contra_Leave);
             // 
             // label1
             // 
@@ -121,6 +127,7 @@
             this.mostrar.TabIndex = 6;
             this.mostrar.Text = "MUESTRAME";
             this.mostrar.UseVisualStyleBackColor = true;
+            this.mostrar.CheckedChanged += new System.EventHandler(this.mostrar_CheckedChanged);
             // 
             // ingreso
             // 
@@ -132,6 +139,7 @@
             this.ingreso.TabIndex = 7;
             this.ingreso.Text = "INGRESAR";
             this.ingreso.UseVisualStyleBackColor = false;
+            this.ingreso.Click += new System.EventHandler(this.ingreso_Click);
             // 
             // label3
             // 
@@ -154,6 +162,7 @@
             this.buttonRegistro.TabIndex = 9;
             this.buttonRegistro.Text = "REGISTRARME";
             this.buttonRegistro.UseVisualStyleBackColor = true;
+            this.buttonRegistro.Click += new System.EventHandler(this.buttonRegistro_Click);
             // 
             // Form1
             // 
