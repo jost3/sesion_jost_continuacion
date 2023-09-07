@@ -1,0 +1,13 @@
+C:\Users\Alumno\Desktop\login 2\login_corrido\bin\Debug\login_corrido.exe.config
+C:\Users\Alumno\Desktop\login 2\login_corrido\bin\Debug\login_corrido.exe
+C:\Users\Alumno\Desktop\login 2\login_corrido\bin\Debug\login_corrido.pdb
+C:\Users\Alumno\Desktop\login 2\login_corrido\obj\Debug\login_corrido.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\login 2\login_corrido\obj\Debug\login_corrido.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Desktop\login 2\login_corrido\obj\Debug\login_corrido.Form1.resources
+C:\Users\Alumno\Desktop\login 2\login_corrido\obj\Debug\login_corrido.Form2.resources
+C:\Users\Alumno\Desktop\login 2\login_corrido\obj\Debug\login_corrido.Form3.resources
+C:\Users\Alumno\Desktop\login 2\login_corrido\obj\Debug\login_corrido.Properties.Resources.resources
+C:\Users\Alumno\Desktop\login 2\login_corrido\obj\Debug\login_corrido.csproj.GenerateResource.cache
+C:\Users\Alumno\Desktop\login 2\login_corrido\obj\Debug\login_corrido.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\login 2\login_corrido\obj\Debug\login_corrido.exe
+C:\Users\Alumno\Desktop\login 2\login_corrido\obj\Debug\login_corrido.pdb

@@ -32,7 +32,7 @@
             this.cerrar1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.nomb = new System.Windows.Forms.TextBox();
-            this.contra = new System.Windows.Forms.TextBox();
+            this.contra2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.mostrar = new System.Windows.Forms.CheckBox();
@@ -87,15 +87,15 @@
             this.nomb.Enter += new System.EventHandler(this.nomb_Enter);
             this.nomb.Leave += new System.EventHandler(this.nomb_Leave);
             // 
-            // contra
+            // contra2
             // 
-            this.contra.Location = new System.Drawing.Point(128, 298);
-            this.contra.Multiline = true;
-            this.contra.Name = "contra";
-            this.contra.Size = new System.Drawing.Size(182, 38);
-            this.contra.TabIndex = 3;
-            this.contra.Enter += new System.EventHandler(this.contra_Enter);
-            this.contra.Leave += new System.EventHandler(this.contra_Leave);
+            this.contra2.Location = new System.Drawing.Point(128, 298);
+            this.contra2.Multiline = true;
+            this.contra2.Name = "contra2";
+            this.contra2.Size = new System.Drawing.Size(182, 38);
+            this.contra2.TabIndex = 3;
+            this.contra2.Enter += new System.EventHandler(this.contra_Enter);
+            this.contra2.Leave += new System.EventHandler(this.contra_Leave);
             // 
             // label1
             // 
@@ -175,7 +175,7 @@
             this.Controls.Add(this.mostrar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.contra);
+            this.Controls.Add(this.contra2);
             this.Controls.Add(this.nomb);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
@@ -196,7 +196,7 @@
         private System.Windows.Forms.Button cerrar1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox nomb;
-        private System.Windows.Forms.TextBox contra;
+        private System.Windows.Forms.TextBox contra2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckBox mostrar;

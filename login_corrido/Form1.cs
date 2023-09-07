@@ -27,7 +27,7 @@ namespace login_corrido
         {
             String usuario, password;
             usuario = nomb.Text;
-            password = contra.Text;
+            password = contra2.Text;
             SqlConnection con = new SqlConnection("Data Source=DESKTOP-7LDGQBD;Initial Catalog=login;Integrated Security=True");
             try
             {
@@ -80,31 +80,31 @@ namespace login_corrido
 
         private void contra_Leave(object sender, EventArgs e)
         {
-            if (contra.Text == "")
+            if (contra2.Text == "")
             {
-                contra.Text = "ingrese su contraseña";
-                contra.ForeColor = Color.Black;
+                contra2.Text = "ingrese su contraseña";
+                contra2.ForeColor = Color.Black;
             }
         }
 
         private void contra_Enter(object sender, EventArgs e)
         {
-            if (contra.Text == "ingrese su contraseña")
+            if (contra2.Text == "ingrese su contraseña")
             {
-                contra.Text = "";
-                contra.ForeColor = Color.Black;
+                contra2.Text = "";
+                contra2.ForeColor = Color.Black;
             }
         }
 
         private void mostrar_CheckedChanged(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(contra.Text))
+            if (string.IsNullOrWhiteSpace(contra2.Text))
             {
-                contra.UseSystemPasswordChar = false;
+                contra2.UseSystemPasswordChar = false;
             }
             else
             {
-                contra.UseSystemPasswordChar = true;
+                contra2.UseSystemPasswordChar = true;
             }
         }
 
