@@ -98,7 +98,7 @@ namespace login_corrido
 
         private void mostrar_CheckedChanged(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(contra2.Text))
+            if (mostrar.Checked == true)
             {
                 contra2.UseSystemPasswordChar = false;
             }
